@@ -5,20 +5,20 @@
 print("Welcome to the Temperature Conversion program")
 
 # 2. Ask the user if they want to convert from Farenheit to Celsius or vice versa (provide 2 options)
-choice = input("")
+choice = input("Convert to farenheit or convert to celsius")
 
 # 3. Ask the user for a number to convert
-temp = int(input(""))
+temp = int(input("enter temperature number to convert: "))
 
 # 4. Convert the number to its respective temperature
 farenheit = ["farenheit", "f"]
 celsius = ["celsius", "c"]
 result = 0
 
-if choice == farenheit:
-    pass
-elif choice == celsius:
-    pass
+if choice in farenheit:
+    result = temp*9 / 5 + 32
+elif choice in celsius:
+    result = (temp-32) * (5/9)
 else:
     print("Please choose \'farenheit\' or \'celsius\'")
 
