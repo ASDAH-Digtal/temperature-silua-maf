@@ -1,4 +1,4 @@
-# Student Name:
+# Student Name: Silua Mafi
 # Date: 
 
 # 1. Write a print statement that says "Welcome to the Temperature Conversion program"
